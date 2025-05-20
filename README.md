@@ -1,3 +1,35 @@
+#AI Assignment
+
+Tax Forms (W2, 1040, 1099, Other.)
+ID Cards
+Handwritten Notes
+
+Approach
+This solution uses a generalized computer vision approach with pure OpenCV, as TensorFlow and PyTorch don't support Python 3.13:
+
+Text-Based Classification:
+
+Documents with significant text are classified as tax forms
+Documents with minimal text undergo visual analysis
+
+
+Visual Classification:
+
+Analyzes structural features to identify ID cards and handwritten notes
+Uses confidence scoring when multiple signals are present
+
+
+
+Implementation Notes
+
+Implements a Python 3.13 compatible solution without TensorFlow/PyTorch
+Uses traditional computer vision techniques rather than deep learning
+Achieved reliable classification without pre-trained models
+Features minimal dependencies (OpenCV, PyMuPDF, NumPy)
+
+Please check the dependencies in the pyproject.toml file
+
+
 # AI Assignment
 
 Hi there 👋,
