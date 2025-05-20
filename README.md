@@ -1,5 +1,6 @@
 #AI Assignment
 
+Classification of following types of documents 
 Tax Forms (W2, 1040, 1099, Other.)
 ID Cards
 Handwritten Notes
